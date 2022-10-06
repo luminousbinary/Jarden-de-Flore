@@ -5,11 +5,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,400;0,600;0,900;1,400;1,600;1,900&display=swap" rel="stylesheet">
+
+    <!-- bootstrap css & javascript -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+
+    <!-- Font Awesome for free fonts  -->
+    <script src="https://kit.fontawesome.com/9a69677719.js" crossorigin="anonymous"></script>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
 
     <title>PaddyWad</title>
 
@@ -18,61 +30,86 @@
 <body>
 
     <section id="title" class="">
-        <div>
+
+        <div class="container-fluid">
             <!-- nav bar -->
 
-            <nav class="nav navbar navbar-expand-md navbar-dark bg-dark">
+            <nav class="nav navbar navbar-expand-md navbar-dark ">
 
-                <div class="container-fluid">
-                    <a class="navbar-brand " href=""> <img src="images/le jardin.png" alt="jarden-de-flore-logo"> </a>
+                <a class="navbar-brand " href=""> <img style="width: 30%;" src="images/le jardin s.png"
+                        alt="jarden-de-flore-logo"> </a>
 
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
 
-                    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                        <ul class="navbar-nav  ms-auto">
-                            <li class="nav-item">
-                                <a href="" class="nav-link">Contact</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="" class="nav-link">Pricing</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="" class="nav-link">Join Now</a>
-                            </li>
-                        </ul>
-                    </div>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <ul class="navbar-nav  ms-auto">
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Join</a>
+                        </li>
+                    </ul>
                 </div>
             </nav>
 
 
-
             <!-- title -->
+            <div class="row ">
+                <div class="col-lg-7">
+                    <h1> Save your world a Flora at a time</h1>
+                    <button type="button" class="but btn btn-dark btn-lg"><i class="fa-solid fa-feather-pointed"></i>
+                        Join Now </button>
+                    <button type="button" class="but btn btn-outline-light btn-lg"><i
+                            class="fa-solid fa-money-check-dollar"></i> Donate Now </button>
+                </div>
+                <div class="col-lg-5">
+                    <img class="head-img"
+                        src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5ee3685c-acf5-40d4-a862-ba3acbb1afc5/d6qladc-e9623ad1-2248-4a97-8c49-8093f369a80d.png/v1/fill/w_900,h_826,strp/dark_pink_flower_stock_by_njakstudio_d6qladc-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODI2IiwicGF0aCI6IlwvZlwvNWVlMzY4NWMtYWNmNS00MGQ0LWE4NjItYmEzYWNiYjFhZmM1XC9kNnFsYWRjLWU5NjIzYWQxLTIyNDgtNGE5Ny04YzQ5LTgwOTNmMzY5YTgwZC5wbmciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.n3rB7bjoQA87QDTD7kRitChYY8CqbNbgoRhEH3Hqioc"
+                        alt="">
 
-            <h1>Save your world a Flora at a time</h1>
-            <button type="button">Join Now</button>
+                </div>
 
-            <img src="https://th.bing.com/th/id/OIP.nKKagiIDQNiGjM5kilTtxgHaFX?w=237&h=180&c=7&r=0&o=5&pid=1.7" alt="">
+            </div>
         </div>
 
     </section>
 
     <!-- Features -->
 
-    <section id="fratures" class="">
-        <div>
-            <h3>Your own custom-made garden</h3>
-            <p>Don’t lower your standard, build your own personalized professional garden with a single call</p>
+    <section id="fratures" class=" container-fluid">
+        <div class="row">
+            <div class="col-lg-4 features">
+                <i class="fa-solid icon fa-screwdriver-wrench fa-7x"></i>
+                <h3>Custom-made Garden</h3>
+                <p class="features-par">Don’t lower your standard, build your own personalized professional garden with
+                    a single call</p>
 
-            <h3>Peace and Tranquility </h3>
-            <p>Pick the perfect colour to flora combination that makes you obtain inner peace and longer life</p>
+            </div>
 
-            <h3>Maintenance and Protection</h3>
-            <p>We can run free maintenance and protection repairs for a year</p>
+            <div class="col-lg-4 features ">
+                <i class="fa-solid icon fa-dove fa-7x"></i>
+                <h3>Peace and Tranquility </h3>
+                <p class="features-par">Pick the perfect colour to flora combination that makes you obtain inner peace
+                    and longer life</p>
+
+
+            </div>
+
+            <div class="col-lg-4 features">
+                <i class="fa-solid icon fa-shield-heart fa-7x"></i>
+                <h3>Maintenance and Protection</h3>
+                <p class="features-par">We can run free maintenance and protection repairs for a year</p>
+
+            </div>
 
         </div>
     </section>
@@ -81,26 +118,46 @@
     <!-- Testimonials -->
 
     <section id="testimonials">
-        <div>
 
-            <h2>My garden looked like a graveyard before I found Jarden de Flore. Now, it looks like Eden </h2>
-            <img src="https://th.bing.com/th/id/R.c6adf2644f8d6b538cb98634fb035220?rik=Kqy5t8ZdfdhFXQ&riu=http%3a%2f%2f4.bp.blogspot.com%2f-pCSV1OBqLnQ%2fU9aUdgeZP7I%2fAAAAAAAAob0%2fWCw0bvXUK1U%2fs1600%2fIMG_5212.JPG&ehk=M%2fL0FPUsqwypc04h92XIcOwQ4PrMMZGp6rbQqUUP2KQ%3d&risl=&pid=ImgRaw&r=0" alt="image">
-            <em>Titi, Aotearoa</em>
-
-            <h2>If anyone told me I could make my garden look this magnificent year ago I would have called them a liar.
-                I didn’t believe my eyes how much better my garden looks with just some adjustment by Jarden de Flore.
-            </h2>
-            <img src="https://th.bing.com/th/id/OIP.F_tnzb6BxtyDbCI6uBRfIAHaHa?pid=ImgDet&rs=1" alt="image">
-            <em>Maurice, Malaysia</em>
-
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-ride="false"
+            data-pause="hover">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <h2>I was suprised how much better my garden looks with some magic touchs by Jarden de Flore.
+                    </h2>
+                    <img class="testimonial-img"
+                        src="http://www.thenumber1.com/Files/190c5457-43dd-4169-82f7-043680a92ec2.jpeg" alt="image">
+                    <em>Maurice Park, Malaysia</em>
 
 
+                </div>
+                <div class="carousel-item">
+                    <h2>My garden looked like a graveyard before I found Jarden de Flore. Now, it looks like Eden. </h2>
+                    <img class="testimonial-img"
+                        src="https://th.bing.com/th/id/R.c6adf2644f8d6b538cb98634fb035220?rik=Kqy5t8ZdfdhFXQ&riu=http%3a%2f%2f4.bp.blogspot.com%2f-pCSV1OBqLnQ%2fU9aUdgeZP7I%2fAAAAAAAAob0%2fWCw0bvXUK1U%2fs1600%2fIMG_5212.JPG&ehk=M%2fL0FPUsqwypc04h92XIcOwQ4PrMMZGp6rbQqUUP2KQ%3d&risl=&pid=ImgRaw&r=0"
+                        alt="image">
+                    <em>Titi's Garden, Aotearoa</em>
+                </div>
 
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
+
+
     </section>
 
     <!-- Press  -->
-
+    <!-- this was meant to show the supporters and spunssors of the program -->
+    <!-- 
     <section id="press" class="">
 
         <img src="" alt="">
@@ -108,35 +165,79 @@
         <img src="" alt="">
         <img src="" alt="">
 
-    </section>
+    </section> -->
 
     <!-- Pricing -->
 
-    <section id="pricing">
+    <section id="pricing ">
+<div class="container-fluid">
 
         <h2>Invest in a greater future for your garden</h2>
         <p>"Don’t let the change you want to see end in you, show it to the world." ~A.C. Tolase</p>
-        <div>
+        <div class="row">
 
-            <h3>Complede Jarden de Flore Gardening Gradening Tool</h3>
-            <h2>$10</h2>
-            <button>Buy</button>
+            <div class="pricing-card  col-lg-4 col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Free</h3>
+                    </div>
+                    <div class="card-body">
+                        <h2 class="card-text">$0/mo.</h2>
+                        <p>Full mentorship program</p>
+                        <p>Complete Jarden de Flore Gardening guide Book and Pro-tips</p>
+                        <p>Weekly online coaching</p>
+                        <button class="btn btn-outline-primary w-100">Buy</button>
+                    </div>
+                </div>
+            </div>
 
-            <h3>Monthly Mentorship, Pro-tips, and Coaching</h3>
-            <h2>$20/mo.</h2>
-            <button>Buy</button>
 
-            <h3>Garden Maintenance</h3>
-            <h2>$50 per yard</h2>
-            <button>Buy</button>
+            <div class="pricing-card col-lg-4 col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Auto Gnome</h3>
+                    </div>
+                    <div class="card-body">
+                        <h2 class="card-text">$50/mo</h2>
+                        <p>Garden protection checks</p>
+                        <p>Garden maintenance</p>
+                        <p>Comes with a free Jarden de Flore Gardening Gradening Tools </p>
+                        <button class="btn btn-primary w-100">Buy</button>
 
-            <h3>Professional Garden House</h3>
-            <h2>$150 per yard</h2>
-            <button>Buy</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="pricing-card col-lg-4 col">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Beutify</h3>
+                    </div>
+                    <div class="card-body">
+                        <h2 class="card-text">$150/mo</h2>
+                        <p>Professional garden house installation</p>
+                        <p>Water and pool garden installation</p>
+                        <p>Window garden installation</p>
+                        <p>CLasic flower garden installation</p>
+                        <button class="btn btn-primary w-100">Buy</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 
+            <h3 class="card-title"></h3>
+            <p>Complede Jarden de Flore Gardening Gradening Tool</p>
+            <h2 class="card-text">$10</h2>
+            <button class="btn btn-secondary">Buy</button> -->
+
+
+
 
 
 
         </div>
+    </div>
 
     </section>
 
