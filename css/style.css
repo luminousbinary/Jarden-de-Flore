@@ -4,9 +4,11 @@ body {
 }
 
 #title {
-    background-color: #f88194;
+    background-color: #f14461;
     /* padding: 1%; */
     color: white;
+    position: relative;
+    z-index: -1;
 }
 
 .navbar {
@@ -45,8 +47,17 @@ h2{
 
 .head-img {
     /* transform: rotate(-32deg); */
-    width: 100%;
+    width: 140%;
 }
+
+
+/* features */
+#features{
+    background-color: white;
+    position: relative;
+    bottom: 100px;
+z-index: 0;
+} 
 
 .features {
     text-align: center;
@@ -99,4 +110,31 @@ h3 {
 }
 
 
+/* cta */
 
+#cta{
+    text-align: center;
+    padding: 100px 0;
+    background-color: #f14461;
+    color:white;
+}
+
+.cta-text{
+    font-size: 2.5rem;
+    margin-bottom: 2% ;
+    line-height: 1.5;
+}
+
+/* footer */
+#footer{
+    text-align: center;
+    padding: 4% 0 0;
+    font-size: 1rem;
+}
+.f-i{
+    margin: 0px 5px;
+}
+
+.footer-p{
+    margin-top: 1%;
+}
